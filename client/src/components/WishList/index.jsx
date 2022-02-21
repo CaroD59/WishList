@@ -4,8 +4,8 @@ import WishListStyled from './styles';
 import { Link } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import { RiDeleteBin5Line } from 'react-icons/ri';
-import { GrEdit, GrAddCircle } from 'react-icons/gr';
-
+import { GrEdit } from 'react-icons/gr';
+// , GrAddCircle
 export default function WishList() {
   // Fonction pour rafraîchir la page après 6,5 secondes
   function Refresh() {
@@ -116,7 +116,7 @@ export default function WishList() {
         ></textarea>
         {/* Envoyer dans la BDD ce qu'il a détecté dans le textarea */}
         <button type='submit' onClick={handleSubmit} className='add'>
-          <GrAddCircle />
+          +
         </button>
       </form>
     </WishListStyled>

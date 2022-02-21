@@ -7,12 +7,12 @@ const FooterStyled = styled.div`
   }
 
   /* Ceci est du CSS imbriqué */
-
+  padding-bottom: 30px;
   font-family: 'Harley';
   font-size: 30px;
   text-align: center;
-  position: absolute;
-  bottom: 0;
+  background-color: #090947;
+  color: white;
   width: 100%;
 `;
 
