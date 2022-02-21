@@ -1,0 +1,4 @@
+node_modules
+bdd
+.env
+package-lock.json
