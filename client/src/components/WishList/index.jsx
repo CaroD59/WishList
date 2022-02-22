@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import { RiDeleteBin5Line } from 'react-icons/ri';
 import { GrEdit } from 'react-icons/gr';
-// , GrAddCircle
 export default function WishList() {
   // Fonction pour rafraîchir la page après 6,5 secondes
   function Refresh() {
