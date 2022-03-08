@@ -5,8 +5,6 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 import WishStyle from './styles';
 import { toast } from 'react-toastify';
-import { GrEdit } from 'react-icons/gr';
-import { BsArrowReturnLeft } from 'react-icons/bs';
 
 export default function Wish() {
   // Fonction pour se rendre à telle page
@@ -95,14 +93,14 @@ export default function Wish() {
             {/* Lien vers une page */}
             <Link to='/wishlist'>
               <button className='button-return'>
-                <BsArrowReturnLeft />
+                <img src='/img/return.png' alt='edit' class='btn' />
               </button>
             </Link>
           </div>
           <div>
             {/* Confirme la fonction qui permet de modifier le souhait */}
             <button onClick={handleSubmit} className='button-add'>
-              <GrEdit />
+              <img src='/img/edit.png' alt='edit' class='btn' />
             </button>
           </div>
         </div>

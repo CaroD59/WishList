@@ -3,8 +3,7 @@ import axios from 'axios';
 import WishListStyled from './styles';
 import { Link } from 'react-router-dom';
 import { toast } from 'react-toastify';
-import { RiDeleteBin5Line } from 'react-icons/ri';
-import { GrEdit } from 'react-icons/gr';
+
 export default function WishList() {
   // Fonction pour rafraîchir la page après 6,5 secondes
   function Refresh() {
@@ -86,14 +85,14 @@ export default function WishList() {
                       onClick={(evt) => wishDelete(list.idlist, evt)}
                       className='delete'
                     >
-                      <RiDeleteBin5Line />
+                      <img src='img/delete.png' alt='delete' class='btn' />
                     </button>
                   </div>
                   <div>
                     {/* Route vers l'id du souhait pour l'éditer*/}
                     <Link to={`/wishlist/${list.idlist}`}>
                       <button className='edit'>
-                        <GrEdit />
+                        <img src='img/edit.png' alt='edit' class='btn' />
                       </button>
                     </Link>
                   </div>

@@ -33,7 +33,7 @@ const WishListStyled = styled.div`
     text-align: center;
     padding: 50px;
     font-family: 'Honey';
-    font-size: 50px;
+    font-size: 100px;
     color: white;
   }
 
@@ -50,7 +50,7 @@ const WishListStyled = styled.div`
       p {
         color: white;
         font-family: 'Letters';
-        font-size: 20px;
+        font-size: 2.5em;
         text-align: center;
         display: table-cell;
         vertical-align: middle;
@@ -68,6 +68,9 @@ const WishListStyled = styled.div`
         border: none;
         background-color: transparent;
         color: white;
+        .btn {
+          width: 2em;
+        }
       }
       .delete:hover {
         color: red;
@@ -94,6 +97,7 @@ const WishListStyled = styled.div`
       height: 20vh;
       border-radius: 20px;
       font-family: cursive;
+      font-size: 1.5em;
       width: 50%;
       outline: none;
       -webkit-box-shadow: 0px 0px 16px 7px rgba(255, 241, 186, 0.99);
@@ -109,17 +113,11 @@ const WishListStyled = styled.div`
       cursor: pointer;
     }
     .add {
-      width: 5vw;
-      height: 5vh;
-      margin-left: auto;
-      margin-right: auto;
-      border-radius: 30px;
-      border: 10px solid #ececd7;
-      color: #060631;
+      color: rgba(255, 241, 186, 0.99);
+      background: transparent;
+      font-size: 2em;
     }
     .add:hover {
-      background-color: #220122;
-      border: 10px solid black;
       color: white;
       transition: 1.5s;
     }

@@ -29,7 +29,7 @@ const WishStyled = styled.div`
     text-align: center;
     padding: 50px;
     font-family: 'Honey';
-    font-size: 50px;
+    font-size: 100px;
   }
   .Bloc-Insert-Wish {
     display: flex;
@@ -44,6 +44,7 @@ const WishStyled = styled.div`
       height: 20vh;
       border-radius: 20px;
       font-family: cursive;
+      font-size: 1.5em;
       width: 50%;
       outline: none;
       -webkit-box-shadow: 0px 0px 16px 7px rgba(255, 241, 186, 0.99);
@@ -56,6 +57,10 @@ const WishStyled = styled.div`
       margin-top: 30px;
       display: flex;
       justify-content: space-around;
+
+      .btn {
+        width: 1.5em;
+      }
 
       .button-add,
       .button-return {
